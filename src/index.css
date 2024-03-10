@@ -5,3 +5,56 @@
   padding-bottom: 2px;
   padding-top: 2px;
 }
+
+.content-container {
+  /* border: 1px solid red; */
+  display: flex;
+  flex-direction: column;
+  /* Stacks elements vertically */
+  align-items: center;
+  height: 200px;
+}
+
+.car {
+  margin-left: 50px;
+  height: 207px;
+  width: 1140px;
+}
+
+.car1 {
+  margin-left: 250px;
+  margin-top: 80px;
+  height: 300px;
+  width: 523px;
+}
+
+.car2 {
+  height: 296px;
+  width: 384px;
+}
+
+.arrows {
+  display: flex;
+  margin-left: 170px;
+  margin-top: 30px;
+}
+
+.arrow {
+  font-size: 2rem;
+  cursor: pointer;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  line-height: 35px;
+  text-align: center;
+}
+
+.left {
+  background-color: #1B3E80;
+  color: #ffff;
+}
+
+.right {
+  background-color: #1B3E80;
+  color: #ffff;
+}
