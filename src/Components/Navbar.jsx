@@ -4,8 +4,8 @@ const Navbar = () => {
     return (
         <nav className="bg-black h-16 px-4 flex justify-between items-center">
             {/* Add your content here, e.g., brand logo, navigation links */}
-            <button className='bg-custom-purpel text-white h-10 w-28'>BMW</button>
-            <div className='mr-80'>
+            <button className='bg-custom-purpel text-white h-10 w-28 ml-10'>BMW</button>
+            <div className='mr-60'>
                 <ul className='text-white flex space-x-6 justify-between'>
                     <li>Home</li>
                     <li>About Us</li>

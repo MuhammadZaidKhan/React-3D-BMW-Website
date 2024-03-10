@@ -14,6 +14,7 @@ module.exports = {
       fontFamily: {
         "Robot": ["Roboto"],
         "Lato": ["Lato"],
+        "Inter": ["Inter"],
         "poppins": ["Poppins"],
         "PottaOne": ["PottaOne"],
         "averia-serif-libre": ["averia-serif-libre"],
