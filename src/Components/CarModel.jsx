@@ -11,7 +11,7 @@ function App() {
         <Canvas dpr={[1, 2]} shadows camera={{ fov: 45 }} className="absolute mt-10">
             <color attach="background" args={["#fffff"]} />
             <PresentationControls
-                speed={2}
+                speed={5}
                 global
                 zoom={5}
                 polar={[-0.1, Math.PI / 2]}
