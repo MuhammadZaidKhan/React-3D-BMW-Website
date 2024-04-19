@@ -1,18 +1,22 @@
+html {
+  scroll-behavior: smooth;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden;
+}
+
 .pricing-border {
   border: 1px solid white;
   padding-left: 18px;
   padding-right: 18px;
   padding-bottom: 2px;
   padding-top: 2px;
-}
-
-.content-container {
-  /* border: 1px solid red; */
-  display: flex;
-  flex-direction: column;
-  /* Stacks elements vertically */
-  align-items: center;
-  height: 200px;
 }
 
 .carr {
